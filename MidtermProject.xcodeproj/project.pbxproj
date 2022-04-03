@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B66C85BD27E37F2F00A9FA40 /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66C85BC27E37F2F00A9FA40 /* data.swift */; };
 		B6E6CA0827E288B6005907D2 /* MidtermProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E6CA0727E288B6005907D2 /* MidtermProjectApp.swift */; };
 		B6E6CA0A27E288B6005907D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E6CA0927E288B6005907D2 /* ContentView.swift */; };
 		B6E6CA0C27E288B9005907D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6E6CA0B27E288B9005907D2 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 		B6E6CA1927E288B9005907D2 /* MidtermProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E6CA1827E288B9005907D2 /* MidtermProjectTests.swift */; };
 		B6E6CA2327E288B9005907D2 /* MidtermProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E6CA2227E288B9005907D2 /* MidtermProjectUITests.swift */; };
 		B6E6CA2527E288B9005907D2 /* MidtermProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E6CA2427E288B9005907D2 /* MidtermProjectUITestsLaunchTests.swift */; };
+		B6E6CA3227E28DA4005907D2 /* quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E6CA3127E28DA4005907D2 /* quiz.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B66C85BC27E37F2F00A9FA40 /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
 		B6E6CA0427E288B6005907D2 /* MidtermProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MidtermProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6E6CA0727E288B6005907D2 /* MidtermProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidtermProjectApp.swift; sourceTree = "<group>"; };
 		B6E6CA0927E288B6005907D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +47,7 @@
 		B6E6CA1E27E288B9005907D2 /* MidtermProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MidtermProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6E6CA2227E288B9005907D2 /* MidtermProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidtermProjectUITests.swift; sourceTree = "<group>"; };
 		B6E6CA2427E288B9005907D2 /* MidtermProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidtermProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B6E6CA3127E28DA4005907D2 /* quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quiz.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				B6E6CA0727E288B6005907D2 /* MidtermProjectApp.swift */,
 				B6E6CA0927E288B6005907D2 /* ContentView.swift */,
+				B6E6CA3127E28DA4005907D2 /* quiz.swift */,
+				B66C85BC27E37F2F00A9FA40 /* data.swift */,
 				B6E6CA0B27E288B9005907D2 /* Assets.xcassets */,
 				B6E6CA0D27E288B9005907D2 /* Preview Content */,
 			);
@@ -259,6 +265,8 @@
 			files = (
 				B6E6CA0A27E288B6005907D2 /* ContentView.swift in Sources */,
 				B6E6CA0827E288B6005907D2 /* MidtermProjectApp.swift in Sources */,
+				B6E6CA3227E28DA4005907D2 /* quiz.swift in Sources */,
+				B66C85BD27E37F2F00A9FA40 /* data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
